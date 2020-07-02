@@ -1,3 +1,12 @@
+/*
+This program describes methods neiron ,
+it means we describe neiron here .
+Author : Michael Elkin
+GPL v2.0
+
+2020 year.
+
+*/
 #include <iostream>
 #include <string>
 
@@ -32,15 +41,22 @@ public:
     	space_of_neiron[size_of_first_array++] ={3};
     	cout<<space_of_neiron[1]<<endl;
     }
+    
+
+    //method to pour memory block
+    void pour_space_of_memory()
+    {   
+        int size_of_memory_block;
+        cout<< "Enter no more than 100 elements in memory block:";
+        cin>>size_of_memory_block;  
+        for (int i = 0; i<= size_of_memory_block;i++)
+            {   
+                int element_of_memory_block;
+                cout<<"Enter element of memory block";
+                space_of_neiron[i] ={element_of_memory_block};
+            }
+
+    }
 
 };
 
-int main()
-{   
-
-    neiron block;
-    block.add_element_in_array();
-
-   
-	return 0 ;
-}
