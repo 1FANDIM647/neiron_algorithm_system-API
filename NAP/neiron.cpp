@@ -40,6 +40,7 @@ public:
     	space_of_neiron[size_of_first_array++] ={2};
     	space_of_neiron[size_of_first_array++] ={3};
     	cout<<space_of_neiron[1]<<endl;
+    	cout<<"Test function for neiron"<<endl;
     }
     
 
@@ -56,6 +57,11 @@ public:
                 cin>>element_of_memory_block;
                 space_of_neiron[i] ={element_of_memory_block};
             }
+
+        for (int a = 0; a <= size_of_memory_block; a++)
+            {
+            	cout<<space_of_neiron[a]<<endl;
+            }    
 
     }
 
